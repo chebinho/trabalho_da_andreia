@@ -74,7 +74,7 @@ dispatch({ type:'DELETE_NOTE', payload: id})
 
   return (
   <div className="App" onDragOver={dragOver}>
- <h1 className="title">Sticky Notes React App</h1>
+ <h1 className="title">Bloco de anotações</h1>
  
 <div className="form">
   {notesState.notes.length > 0 && (
